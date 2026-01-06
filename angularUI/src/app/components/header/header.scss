@@ -1,0 +1,50 @@
+$Blue: rgb(19, 91, 236);
+$textDark: #333333;
+$textLight: #666666;
+$bgLight: #f4f7f6;
+$borderRadius: 8px;
+$paddingStandard: 24px;
+$black: #000;
+$white: #fff;
+
+
+.nav {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px,
+    rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  .logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    img {
+      height: 30px;
+      width: 30px;
+      border-radius: $borderRadius;
+    }
+    span {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+  .navbuttons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    .loginbtn {
+      border: 1px solid $Blue;
+      padding: 5px 10px;
+      background-color: $Blue;
+      text-decoration: none;
+      color: $white;
+      border-radius: $borderRadius;
+    }
+
+    .atags {
+      color: $black;
+      text-decoration: none;
+    }
+  }
+}
